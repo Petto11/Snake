@@ -2,6 +2,9 @@ This project analyzes the efficiency and effectiveness of the DQN in solving the
 
 Inside the repo there are:
 
-The final report: a .PDF file showing how the analysis was carried out
-Log: a .xes file containing the log of events
-Python script: code for a part of the project. the rest of the analysis has been carried out using process mining softwares such as ProM and Woped.
+Basline.py: The baseline agent
+Evaluate.py: File to run for reproducibility of results
+Report.pdf: a file containing the report of the project
+Snake_agent_train.py: The pipeline used to train our agent
+environments_fully_observable: The environment used in the RL problem
+snake_agent_2.pth: The weights of the trained agent
